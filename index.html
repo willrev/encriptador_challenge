@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <title>Encriptador</title>
+
+
+</head>
+
+<body>
+  <header>
+    <img src="imagenes/Vector.png" alt="Logo de la letra a de Alura" class="logo">
+  </header>
+  <main>
+    <!-- <section>
+
+      <h1>Encriptador con Javascript</h1>
+
+    </section> -->
+
+    <section>
+
+      <textarea class="tx_area" cols="30" rows="10" id="tx_area" name="tx_area"
+        placeholder="Ingrese el texto aqui"></textarea>
+      <div>
+        <h6 class="informacion">Solo letras en minusculas y sin acentos</h6>
+      </div>
+      <div class="botones">
+        <button class="btn_encriptar" onclick="btn_encriptar()">Encriptar</button>
+        <button class="btn_desencriptar" onclick="btn_desencriptar()">Desencriptar</button>
+      </div>
+
+    </section>
+    <section>
+      <textarea class="mensaje" name="mensaje" id="mensaje" cols=" 20" rows="10"></textarea>
+      <div>
+        <button class="btn_copiar" id="btn_copiar" onclick="copiar()">COPIAR</button>
+      </div>
+    </section>
+  </main>
+
+
+</body>
+<footer>
+  <div class="pie">Desarrollado por: William Rivera.</div>
+</footer>
+<script src="script.js">
+
+</script>
