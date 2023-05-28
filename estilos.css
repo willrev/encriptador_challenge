@@ -1,17 +1,12 @@
 * {
-  background: rgb(178, 173, 165);
+  background: rgb(190, 206, 223);
   font-family: "inter";
   font-weight: 400;
   font-size: 32px;
   line-height: 150%;
 }
-/* h1 {
-  text-align: center;
-  font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
-} */
 
-/* Logo */
+/* Logo supoerior */
 
 .logo {
   margin-left: 10px;
@@ -58,8 +53,6 @@ main {
   margin-left: 98px;
   margin: top 20px;
   padding-left: 20px;
-  /* position: fixed; */
-  /* overflow: hidden; */
 }
 .mensaje:focus {
   outline: none;
@@ -104,8 +97,16 @@ main {
   color: #4d565f;
   font: size 16px;
 }
+
+footer {
+  width: 100%;
+  background-repeat: fixed;
+  text-align: center;
+}
 .pie {
+  border-radius: 30px;
+  background: #567498;
   text-align: center;
   color: black;
-  font-size: small;
+  font-size: 14px;
 }
